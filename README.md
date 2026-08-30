@@ -30,7 +30,7 @@ The formal guarantees established in this repository directly translate to three
 ## ⚖️ Software IP Licensing & Commercial Terms
 
 * **Open-Source License:** This software IP package is released under the **GNU Affero General Public License v3.0 (AGPL-3.0)**, ensuring open collaboration and network-copyleft protection for academic and open-source projects.
-* **Commercial Dual-Licensing:** For enterprise organizations, manufacturers, or startups wishing to embed the core engines into closed-source commercial software pipelines, proprietary commercial licenses and custom enterprise exceptions are available.
+* **Commercial Dual-Licensing:** For enterprise organizations, cloud providers, or security vendors wishing to integrate or build upon this machine-verified mathematical proof within closed-source compliance, proprietary R&D, or commercial software pipelines, custom commercial licenses and enterprise exceptions are available.
 * **Commercial Licensing Inquiries:** Please contact Licensing Agent - J.E. Randolph 📧 700josh.r@gmail.com
 
 ---
@@ -54,5 +54,4 @@ If you use this formalization or paper in your research, please cite it as:
 ---
 <img src="https://img.shields.io/badge/Field-Theoretical%20Computer%20Science%20%2F%20Cloud%20Security-blue" alt="Field Badge"><img src="https://img.shields.io/badge/License-AGPL--3.0-green" alt="License Badge"><img src="https://img.shields.io/badge/Formal%20Verification-Lean%204-orange" alt="Lean 4 Badge">
 
-Jonathan $f(n)$ Reed  
 Copyright (c) 2026 Jonathan $f(n)$ Reed. All rights reserved.
