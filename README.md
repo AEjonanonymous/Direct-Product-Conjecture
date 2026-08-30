@@ -46,7 +46,7 @@ Our proof derives its true power from being a direct deductive inequality chain 
   *Justification:* Combines steps one through four and takes the infimum over all valid protocols to close the derivation.
 
 <p align="center">
-  <img src="YOUR_GITHUB_IMAGE_URL_HERE" width="100%" alt="Direct Deductive Inequality Funnel">
+  <img src="https://github.com/AEjonanonymous/Direct-Product-Conjecture/blob/main/docs/Gemini_Generated_Image_1tp1i41tp1i41tp1.jpg">
 </p>
 
 ## ✅ Computer-Assisted Proof in Lean 4
