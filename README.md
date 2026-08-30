@@ -13,6 +13,10 @@ $$\mathbb{C}\mathbb{C}_{\epsilon}(f^{k})\ge k\cdot\mathbb{R}_{\delta}(f)-o(k)$$
 
 ## ⛓️ The Direct Deductive Inequality Chain
 
+<p align="center">
+  <img src="https://github.com/AEjonanonymous/Direct-Product-Conjecture/blob/main/docs/Gemini_Generated_Image_1tp1i41tp1i41tp1.jpg">
+</p>
+
 Our proof derives its true power from being a direct deductive inequality chain that avoids asymptotic hand-waving entirely. By leveraging Hilbert Space Orthogonal Projections, KL Information Tensorization, Han's Inequality, and Pinsker-Bounded Simulation Operators, every single step forms an airtight logical progression from first principles to the final bound.
 
 * **Step 1: The Information Lower Bound on Communication**
@@ -44,10 +48,6 @@ Our proof derives its true power from being a direct deductive inequality chain 
   $$CC_{\epsilon}(f^k) \ge k \cdot R_{\delta}(f)$$
 
   *Justification:* Combines steps one through four and takes the infimum over all valid protocols to close the derivation.
-
-<p align="center">
-  <img src="https://github.com/AEjonanonymous/Direct-Product-Conjecture/blob/main/docs/Gemini_Generated_Image_1tp1i41tp1i41tp1.jpg">
-</p>
 
 ## ✅ Computer-Assisted Proof in Lean 4
 
