@@ -1,11 +1,13 @@
+<h1 align="center">Computer-Assisted Resolution of the Direct Product Conjecture via Kullback-Leibler (KL) Divergence Information Tensorization and Pinsker-Bounded Simulation Operators (Cloud Security)</h1>
 <p align="center">
-  <b>Computer-Assisted Resolution of the Direct Product Conjecture via Kullback-Leibler (KL) Divergence Information Tensorization and Pinsker-Bounded Simulation Operators (Cloud Security)</b>
-</p>
+  
+<h3 align="center">📌 Abstract</h3>
 
-<p align="center">
-  📌 <b>Abstract</b><br>
-  Using the Lean 4 interactive theorem prover, this paper presents a machine-verified structural resolution of the Direct Product Conjecture in communication complexity. Extending Hilbert space orthogonal projections and ANOVA-Hoeffding decompositions beyond linear variance, we bridge non-linear information metrics through Kullback-Leibler divergence tensorization, Han's inequality, and a Pinsker-bounded simulation operator. By controlling cross-coordinate conditioning drift, our deductive pipeline formally proves the affirmative resolution: parallel execution cannot bypass single-instance information costs, establishing that $\mathbb{CC}_{\epsilon}(f^{k})\ge k\cdot\mathbb{R}_{\delta}(f)-o(k)$. This rigorously verified lower bound resolves the conjecture, providing essential, provable resource guarantees for secure multi-party computation and distributed cloud infrastructure.
-</p>
+*Using the Lean 4 interactive theorem prover, this paper presents a machine-verified structural resolution of the Direct Product Conjecture in communication complexity. Extending Hilbert space orthogonal projections and ANOVA-Hoeffding decompositions beyond linear variance, we bridge non-linear information metrics through Kullback-Leibler divergence tensorization, Han's inequality, and a Pinsker-bounded simulation operator. By controlling cross-coordinate conditioning drift, our deductive pipeline formally proves the affirmative resolution: parallel execution cannot bypass single-instance information costs, establishing that:*
+
+$$\mathbb{C}\mathbb{C}_{\epsilon}(f^{k})\ge k\cdot\mathbb{R}_{\delta}(f)-o(k)$$
+
+*This rigorously verified lower bound resolves the conjecture, providing essential, provable resource guarantees for secure multi-party computation and distributed cloud infrastructure.*
 
 ---
 
@@ -50,9 +52,7 @@ If you use this formalization or paper in your research, please cite it as:
 ```
 
 ---
-<img src="https://img.shields.io/badge/Field-Theoretical%20Computer%20Science%20%2F%20Cloud%20Security-blue" alt="Field Badge">
-<img src="https://img.shields.io/badge/License-AGPL--3.0-green" alt="License Badge">
-<img src="https://img.shields.io/badge/Formal%20Verification-Lean%204-orange" alt="Lean 4 Badge">
+<img src="https://img.shields.io/badge/Field-Theoretical%20Computer%20Science%20%2F%20Cloud%20Security-blue" alt="Field Badge"><img src="https://img.shields.io/badge/License-AGPL--3.0-green" alt="License Badge"><img src="https://img.shields.io/badge/Formal%20Verification-Lean%204-orange" alt="Lean 4 Badge">
 
 Jonathan $f(n)$ Reed  
 Copyright (c) 2026 Jonathan $f(n)$ Reed. All rights reserved.
