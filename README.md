@@ -45,6 +45,10 @@ Our proof derives its true power from being a direct deductive inequality chain 
 
   *Justification:* Combines steps one through four and takes the infimum over all valid protocols to close the derivation.
 
+<p align="center">
+  <img src="YOUR_GITHUB_IMAGE_URL_HERE" width="100%" alt="Direct Deductive Inequality Funnel">
+</p>
+
 ## ✅ Computer-Assisted Proof in Lean 4
 
 The machine-verified source code formalizing the entire deductive chain from step-by-step measure expansions to the final direct product lower bound theorem is maintained in the repository file:
