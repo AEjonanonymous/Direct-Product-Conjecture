@@ -1,10 +1,12 @@
 {
   "challenge_module": "Challenge",
   "solution_module": "Solution",
-  "declarations": [
-    {
-      "challenge_decl": "direct_product_lower_bound",
-      "solution_decl": "direct_product_lower_bound"
-    }
+  "theorem_names": [
+    "direct_product_lower_bound"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
   ]
 }
