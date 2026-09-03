@@ -45,7 +45,7 @@ Our proof derives its true power from being a direct deductive inequality chain 
 
 * **Step 5: The Final Inequality Chain**
 
-  $$CC_{\epsilon}(f^k) \ge k \cdot R_{\delta}(f)$$
+ $$\mathbb{C}\mathbb{C}_{\epsilon}(f^{k})\ge k\cdot\mathbb{R}_{\delta}(f)-o(k)$$
 
   *Justification:* Combines steps one through four and takes the infimum over all valid protocols to close the derivation.
 
