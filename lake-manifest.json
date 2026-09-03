@@ -82,15 +82,14 @@
    "inherited": true,
    "configFile": "lakefile.toml"},
   {"url": "https://github.com/leanprover/lean4-cli",
-   "type": "git",
-   "subDir": null,
-   "scope": "leanprover",
-   "rev": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
-   "name": "Cli",
-   "manifestFile": "lake-manifest.json",
-   "inputRev": "v4.34.0-rc2",
-   "inherited": true,
-   "configFile": "lakefile.toml"}],
- "name": "DirectProductConjecture",
- "lakeDir": ".lake",
- "fixedToolchain": false}
+  "type": "git",
+  "subDir": null,
+  "scope": "leanprover",
+  "rev": "6130a47896ce",
+  "name": "Cli",
+  "manifestFile": "lake-manifest.json",
+  "inputRev": "v4.33.0",
+  "inherited": true,
+  "configFile": "lakefile.toml"}
+ ]
+}
