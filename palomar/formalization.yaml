@@ -1,21 +1,31 @@
 project:
   name: "DirectProductConjecture"
   description: "A machine-verified structural resolution of the Direct Product Conjecture in communication complexity using Lean 4 via KL divergence tensorization and Pinsker-bounded simulation operators."
+  authors:
+    - name: "Jonathan f(n) Reed"
+      orcid: "0009-0008-7345-1407"
+  responsible_maintainers:
+    - name: "Jonathan f(n) Reed"
+      orcid: "0009-0008-7345-1407"
+  license: "AGPL-3.0"
 
-authors:
-  - name: "Jonathan f(n) Reed"
-    orcid: "0009-0008-7345-1407"
+classification:
+  arxiv:
+    - "cs.CC"
+    - "math.PR"
+    - "cs.IT"
 
 sources:
   - type: preprint
     title: "Computer-Assisted Resolution of the Direct Product Conjecture via Kullback-Leibler (KL) Divergence Information Tensorization and Pinsker-Bounded Simulation Operators"
+    url: "https://github.com/AEjonanonymous/Direct-Product-Conjecture"
     authors:
       - name: "Jonathan f(n) Reed"
+    relationship: "formalizes"
 
 automation:
-  method: mixed
-  tools:
-    - name: "Gemini"
-      role: "Formalization and editing assistant under direct human control"
+  methods:
+    - "AI-assisted formalization and editing using Gemini under direct human control"
 
-license: "AGPL-3.0"
+review:
+  status: "draft"
