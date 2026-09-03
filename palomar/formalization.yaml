@@ -12,20 +12,18 @@ project:
 classification:
   arxiv:
     - "cs.CC"
-    - "math.PR"
     - "cs.IT"
+    - "math.PR"
 
 sources:
   - type: preprint
     title: "Computer-Assisted Resolution of the Direct Product Conjecture via Kullback-Leibler (KL) Divergence Information Tensorization and Pinsker-Bounded Simulation Operators"
     url: "https://github.com/AEjonanonymous/Direct-Product-Conjecture"
-    authors:
-      - name: "Jonathan f(n) Reed"
     relationship: "formalizes"
 
 automation:
-  methods:
-    - "AI-assisted formalization and editing using Gemini under direct human control"
+  - name: "Gemini"
+    role: "Formalization and editing assistant under direct human control"
 
 review:
   status: "draft"
