@@ -1,5 +1,4 @@
 import Mathlib
-import Challenge
 
 open MeasureTheory ProbabilityTheory
 
