@@ -26,4 +26,5 @@ automation:
       tool_setup: "Gemini under direct human control"
 
 review:
-  status: "draft"
+  status: self-assessed
+  basis: machine-checked via Lean 4 kernel verification
