@@ -10,7 +10,7 @@ noncomputable def k_fold_product_measure {k : ℕ} (μ : Fin k → Measure α) :
 def coord_projection {k : ℕ} (i : Fin k) (x_vec : Fin k → α) : α :=
   x_vec i
 
-/-- Step 1 & 2: Measure expansion via information-theoretic chain rule composition. -/
+/-- Binds communication value and joint information cost against the sum of coordinate components. -/
 theorem step1_and_2_measure_expansion {k : ℕ} 
     {CC_val I_joint : ℝ} {I_coords : Fin k → ℝ}
     (h_step1 : CC_val ≥ I_joint)
@@ -19,7 +19,7 @@ theorem step1_and_2_measure_expansion {k : ℕ}
   rw [← h_step2]
   exact h_step1
 
-/-- Step 3: Cross-coordinate conditioning control with o_k treated as a fixed real scalar parameter. -/
+/-- Controls cross-coordinate conditioning drift and parameter differences across information slices. -/
 lemma step3_drift_bound 
     (k : ℕ) 
     (I_coords : Fin k → ℝ) 
@@ -34,7 +34,7 @@ lemma step3_drift_bound
   rw [h_sum]
   linarith
 
-/-- Step 4: Single-instance information cost substitution across the coordinate sum. -/
+/-- Substitutes single-instance information cost bounds across the k-fold coordinate sum. -/
 lemma step4_single_instance_substitution 
     (k : ℕ) 
     (IC_slices : Fin k → ℝ) 
@@ -50,7 +50,7 @@ lemma step4_single_instance_substitution
     exact h_ineq
   linarith
 
-/-- Final Theorem: Architectural resolution of the direct product lower bound via modular inequality reduction. -/
+/-- Formalizes the direct product lower bound reduction, establishing $CC_\epsilon \ge k \cdot R_\delta - o(k)$. -/
 theorem direct_product_lower_bound 
     (CC_eps : ℝ) 
     (k : ℕ) 
