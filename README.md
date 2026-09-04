@@ -17,7 +17,7 @@ $$\mathbb{C}\mathbb{C}_{\epsilon}(f^{k})\ge k\cdot\mathbb{R}_{\delta}(f)-o(k)$$
   <img src="https://github.com/AEjonanonymous/Direct-Product-Conjecture/blob/main/docs/Gemini_Generated_Image_1tp1i41tp1i41tp1.jpg">
 </p>
 
-Our framework provides a direct deductive inequality chain. By modularly composing established information-theoretic bounds, including KL information tensorization, Han's inequality, and Pinsker-bounded simulation operators—as architectural inputs, the deductive pipeline forms an airtight verification layer closing the final bound.
+Our proof derives its true power from being a direct deductive inequality chain that avoids asymptotic hand-waving entirely. By leveraging Hilbert Space Orthogonal Projections, KL Information Tensorization, Han's Inequality, and Pinsker-Bounded Simulation Operators, every single step forms an airtight logical progression from first principles to the final bound.
 
 * **Step 1: The Information Lower Bound on Communication**
 
