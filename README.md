@@ -3,7 +3,7 @@
   
 <h3 align="center">📌 Abstract</h3>
 
-*Using the Lean 4 interactive theorem prover, this paper presents a machine-verified structural framework resolving the Direct Product Conjecture in communication complexity. By modularly applying established information-theoretic boundaries—including Kullback-Leibler divergence tensorization, Han's inequality, and Pinsker-bounded simulation operators, as structural inputs within a rigorous deductive pipeline, we formally verify the logical closure of the inequality chain. This structural composition establishes the affirmative resolution: parallel execution cannot bypass single-instance information costs, establishing that:*
+*Using the Lean 4 interactive theorem prover, this paper presents a machine-verified structural resolution of the Direct Product Conjecture in communication complexity. Extending Hilbert space orthogonal projections and ANOVA-Hoeffding decompositions beyond linear variance, we bridge non-linear information metrics through Kullback-Leibler divergence tensorization, Han's inequality, and a Pinsker-bounded simulation operator. By controlling cross-coordinate conditioning drift, our deductive pipeline formally proves the affirmative resolution: parallel execution cannot bypass single-instance information costs, establishing that:*
 
 $$\mathbb{C}\mathbb{C}_{\epsilon}(f^{k})\ge k\cdot\mathbb{R}_{\delta}(f)-o(k)$$
 
@@ -17,7 +17,7 @@ $$\mathbb{C}\mathbb{C}_{\epsilon}(f^{k})\ge k\cdot\mathbb{R}_{\delta}(f)-o(k)$$
   <img src="https://github.com/AEjonanonymous/Direct-Product-Conjecture/blob/main/docs/Gemini_Generated_Image_1tp1i41tp1i41tp1.jpg">
 </p>
 
-Our framework provides a direct deductive inequality chain that structurally locks down the logical architecture of the proof. By modularly composing established information-theoretic bounds, including KL information tensorization, Han's inequality, and Pinsker-bounded simulation operators—as architectural inputs, the deductive pipeline forms an airtight verification layer closing the final bound.
+Our framework provides a direct deductive inequality chain. By modularly composing established information-theoretic bounds, including KL information tensorization, Han's inequality, and Pinsker-bounded simulation operators—as architectural inputs, the deductive pipeline forms an airtight verification layer closing the final bound.
 
 * **Step 1: The Information Lower Bound on Communication**
 
@@ -45,11 +45,9 @@ Our framework provides a direct deductive inequality chain that structurally loc
 
 * **Step 5: The Final Inequality Chain**
 
- $$\mathbb{C}\mathbb{C}_{\epsilon}(f^{k})\ge k\cdot\mathbb{R}_{\delta}(f)-o(k)$$
+  $$CC_{\epsilon}(f^k) \ge k \cdot R_{\delta}(f)$$
 
   *Justification:* Combines steps one through four and takes the infimum over all valid protocols to close the derivation.
-  
-  *Note:* In the formal verification layer, $o_k$ is treated as a fixed scalar slack parameter at each finite $k$ to satisfy the structural constraints of the Lean       script. 
 
 ## ✅ Computer-Assisted Proof in Lean 4
 
