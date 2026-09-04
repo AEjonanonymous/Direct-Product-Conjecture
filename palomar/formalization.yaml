@@ -1,50 +1,20 @@
-project:
-  name: "DirectProductConjecture"
-  description: "Formalization of the macro-deductive inequality chain establishing the direct product lower bound via arithmetic aggregation and modular reduction."
-  authors:
-    - name: "Jonathan f(n) Reed"
-      orcid: "0009-0008-7345-1407"
-  responsible_maintainers:
-    - name: "Jonathan f(n) Reed"
-      orcid: "0009-0008-7345-1407"
-  license: "AGPL-3.0"
-
-classification:
-  arxiv:
-    - "cs.CC"
-    - "cs.IT"
-    - "math.PR"
-
+format_version: "0.4"
+title: "Direct Product Lower Bound Inequality Formalization"
+description: "Mechanical formalization of the arithmetic inequality chain for multi-instance communication complexity bounds using Lean 4."
+authors:
+  - name: "Jonathan f(n) Reed"
+    orcid: "0009-0008-7345-1407"
+responsible_maintainers:
+  - name: "Jonathan f(n) Reed"
+    github: "AEjonanonymous"
 sources:
-  - type: original-proof
-    title: "Computer-Assisted Resolution of the Direct Product Conjecture via Kullback-Leibler (KL) Divergence Information Tensorization and Pinsker-Bounded Simulation Operators"
-    relationship: "original"
-    references:
-      - "[1] Braverman, M. (2023). Communication and information complexity. International Congress of Mathematicians, 284-320."
-      - "[2] Ash, R. B. (2014). Real analysis and probability. Academic Press."
-      - "[3] Hilbert, D. (1912). Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen. Teubner."
-      - "[4] Cover, T. M., & Thomas, J. A. (2006). Elements of information theory (2nd ed.). John Wiley & Sons."
-      - "[5] Hoeffding, W. (1948). A class of statistics with asymptotically normal distributions. The Annals of Mathematical Statistics, 19(3), 293-325."
-      - "[6] Kullback, S., & Leibler, R. A. (1951). On information and sufficiency. The Annals of Mathematical Statistics, 22(1), 79-86."
-      - "[7] Kontorovich, A., & Raginsky, M. (2017). Concentration of measure without independence: A unified approach via the martingale method. The IMA Volumes in Mathematics and its Applications, 183-210."
-      - "[8] Han, T. S. (1978). Nonnegative entropy measures of multivariate symmetric functions. Information and Control, 36(2), 133-156."
-      - "[9] Madiman, M., & Tetali, P. (2010). Information inequalities for joint distributions, with interpretations and applications. IEEE Transactions on Information Theory, 56(6), 2699-2713."
-      - "[10] Braverman, M., & Weinstein, O. (2015). A discrepancy lower bound for information complexity. Algorithmica, 76(3), 846-864."
-      - "[11] Gao, L., & Rouzé, C. (2021). Complete entropic inequalities for quantum Markov chains. arXiv."
-      - "[12] de Moura, L., & Ullrich, S. (2021). The Lean 4 theorem prover and programming language. CADE 28, 625-635."
-      - "[13] Pinsker, M. S. (1964). Information and Information Stability of Random Variables and Processes. Holden-Day."
-      - "[14] Sason, I. (2022). Information inequalities via submodularity and a problem in extremal graph theory. Entropy, 24(5), 597."
-      - "[15] Arora, S., & Barak, B. (2009). Computational complexity: A modern approach. Cambridge University Press."
-
-limitations:
-  - "Formalizes the macro-deductive inequality chain and arithmetic aggregation steps conditional on established structural premises and bounds."
-  - "Quantifies the drift and slack parameter o_k as a fixed real scalar per index k."
-
+  - type: "original-proof"
+    title: "Direct Product Lower Bound Formalization"
+    relationship: "other"
+    authors:
+      - name: "Jonathan f(n) Reed"
 automation:
-  methods:
-    - method: "ai-assisted"
-      tool_setup: "Gemini under direct human control"
-
+  - method: "ai-assisted"
+    tooling: "Lean 4, Gemini"
 review:
-  status: "unchecked"
-  basis: "Mechanical verification executed via Lean 4 kernel and NanoDa comparator only. No separate substantive, peer, or editorial review has been conducted."
+  status: "none"
